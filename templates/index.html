@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe AI</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<h1>🎮 Tic Tac Toe AI</h1>
+
+<div class="center-container">
+    <div class="board" id="board"></div>
+</div>
+
+<p id="status">You = X | AI = O</p>
+
+<div id="metrics">
+  <p>Minimax Time: <span id="t1">0</span></p>
+  <p>Alpha-Beta Time: <span id="t2">0</span></p>
+  <p>Minimax Nodes: <span id="n1">0</span></p>
+  <p>Alpha-Beta Nodes: <span id="n2">0</span></p>
+</div>
+
+<button onclick="resetGame()">Restart</button>
+
+<script src="/static/script.js"></script>
+
+</body>
+</html>
